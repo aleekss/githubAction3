@@ -9,11 +9,12 @@ public class Rechteck {
         this.breite = breite;
     }
 
-    public void berechneFlaeche(){
+    public float berechneFlaeche(){
         float flaeche = 0;
 
         flaeche = this.laenge * this.breite;
 
-        System.out.println(flaeche);
+
+        return flaeche;
     }
 }
